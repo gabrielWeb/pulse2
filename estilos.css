@@ -88,6 +88,9 @@ nav #publicar_nav a{
 #contenido .item{
 	background: #fff;
 	border-bottom: 3px solid #22bce0;
+	position: relative;
+	margin-bottom:3em;
+	min-height: 128px;
 }
 
 #contenido .item p{
@@ -120,4 +123,13 @@ nav #publicar_nav a{
 	text-decoration: none;
 }
 
-
+#contenido .item .votacion{
+	border-radius: 0 0 0.5em  0.5em;
+	width: 96px;
+	position: absolute;
+	background: #fff;
+	margin: 3px 0 0 0;
+	top: 100%;
+	padding: 0.5em 0;
+	text-align: center;
+}
