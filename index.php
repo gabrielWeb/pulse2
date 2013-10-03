@@ -38,6 +38,11 @@
 		<p>Es importante registrarte porque LOL!</p>
 		<a href="#" id="registro">Registrate ac&aacute;</a>
 		<p id="mensaje_registro">En serio , registrate por favor</p>
+		<video width="200" controls>
+			<source src="video.webm" type="video/webm"/>
+			<source src="video.mp4" type="video/mp4"/>
+			<p>Su navegador es obsoleto</p> 
+		</video>
 	</aside>
 	<section id="contenido">
 	<?for($x =1; $x<=5; $x++){?>
