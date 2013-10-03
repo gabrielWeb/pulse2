@@ -2,10 +2,12 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 	<title>Comunidad online de gente pro y (no se que mas)</title>
 	<link rel="stylesheet" href="normalize.css" />
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" href="estilos.css" />
+	<link rel="stylesheet" href="responsive.css" />
 </head>
 <body>
 	<header>
@@ -31,7 +33,14 @@
 			<li id="publicar_nav"><a href="#">Publicar</a></li>
 		</ul>
 	</nav>
+	<aside id="bienvenida">
+		<h2>Hola, registrate</h2>
+		<p>Es importante registrarte porque LOL!</p>
+		<a href="#" id="registro">Registrate ac&aacute;</a>
+		<p id="mensaje_registro">En serio , registrate por favor</p>
+	</aside>
 	<section id="contenido">
+	<?for($x =1; $x<=5; $x++){?>
 		<article class="item">
 			<figure class="imagen_item">
 				<img src="imagen.jpg" />
@@ -55,7 +64,9 @@
 				<a class="down" href="#"></a> 
 			</p>
 		</article>
+		<? }?>
 	</section>
+	
 	<footer>
 		<p>Powered by Platzi!</p>
 		<p>Mejorando.la 2013 ®</p>
